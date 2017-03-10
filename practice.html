@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <meta charset="UTF-8">
+    <title>Javascript Activity</title>
+</head>
+<body>
+<div style="text-align:center" id="musicPlayer" >
+    <button id="btnPlayMusic">Play</button>
+    Cricket
+    <button id="btnStopMusic">Stop</button>
+</div>
+    <audio id="music">
+        <source src="music/crickets.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+<br>
+<div style="text-align:center" id="videoPlayer">
+    <button id="btnPlay">Play</button>
+    <button id="btnStop">Stop</button>
+    <br><br>
+    <video  id="sampleVideo" width="320" height="240">
+        <source src="music/movie.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</div>
+<br>
+<div id="form">
+<form action="/page" method="get">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="firstName">
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" id="lastName">
+    <input type="submit" value="Submit" id="submit">
+</form>
+</div>
+    <script type="text/javascript" src="js/jquery-1.9.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
